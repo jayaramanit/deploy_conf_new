@@ -2,8 +2,8 @@
 cloud_provider:
     type: cf
     url: https://api.system.asv-pr.ice.predix.io
-    org: predix-devops-hc
-    space: training
+    org: DigitalDemoLounge-Select
+    space: dev
     self_signed: true
     default_domain: run.asv-pr.ice.predix.io/
 artifact_store:
