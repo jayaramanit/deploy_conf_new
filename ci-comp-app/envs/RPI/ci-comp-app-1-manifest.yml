@@ -1,0 +1,16 @@
+---
+applications:
+- name: ci-comp-app-1-<space>
+  domain: cfapps.io
+  instances: 1
+  memory: 512M
+  hosts:
+  - ci-comp-app-11-<space>
+  - ci-comp-app-host2-<space>
+  secondary_routes:
+  - foo.exmple.org
+  disk_quota: 1GB
+  stack: cflinuxfs2
+  env:
+    MEMORY_LIMIT: 500M
+    INT_KEY: 30

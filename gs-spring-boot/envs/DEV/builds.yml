@@ -1,0 +1,15 @@
+---
+builds:
+- deployed_app_name: gs-spring-boot
+  repository_name: JETSTREAM-PIPELINE
+  generic_app_id: gs-spring-boot
+  build_id: 3
+  artifact_name: gs-spring-boot-0.1.0.jar
+  artifact_locator: org/springframework/gs-spring-boot/0.1.0/gs-spring-boot-0.1.0.jar
+- deployed_app_name: gs-spring-boot-two
+  repository_name: JETSTREAM-PIPELINE
+  generic_app_id: gs-spring-boot-two
+  build_id: 3
+  artifact_name: gs-spring-boot-0.1.0.jar
+  artifact_locator: org/springframework/gs-spring-boot/0.1.0/gs-spring-boot-0.1.0.jar  
+

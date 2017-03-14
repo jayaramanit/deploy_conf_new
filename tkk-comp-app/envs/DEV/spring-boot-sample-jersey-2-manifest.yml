@@ -1,0 +1,11 @@
+---
+applications:
+- name: spring-boot-sample-jersey-2
+  memory: 512M
+  instances: 1
+  domain: run.asv-pr.ice.predix.io
+  host: ci-spring-boot-sample-jersey-2
+  disk_quota: 1GB
+  env:
+        key1: value1
+        key2: value2

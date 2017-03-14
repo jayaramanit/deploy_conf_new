@@ -1,0 +1,6 @@
+---
+memory: 512M
+instances: 1
+domain: grc-apps.svc.ice.ge.com
+timeout: 180
+

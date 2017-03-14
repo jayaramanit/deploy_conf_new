@@ -1,0 +1,13 @@
+---
+builds:
+- deployed_app_name: spring-boot-sample-jersey-1
+  repository_name: UQWKB
+  build_id: 1
+  generic_app_id: org/springframework/boot/spring-boot-sample-jersey-1/1.3.0.BUILD-SNAPSHOT
+  artifact_relative_path: org/springframework/boot/spring-boot-sample-jersey-1/1.3.0.BUILD-SNAPSHOT/17/spring-boot-sample-jersey-1-1.0.0-SNAPSHOT.jar
+- deployed_app_name: spring-boot-sample-jersey-2
+  repository_name: UQWKB
+  build_id: 1
+  generic_app_id: org/springframework/boot/spring-boot-sample-jersey-2/1.3.0.BUILD-SNAPSHOT
+  artifact_relative_path: org/springframework/boot/spring-boot-sample-jersey-2/1.3.0.BUILD-SNAPSHOT/8/spring-boot-sample-jersey-2-1.0.0-SNAPSHOT.jar
+

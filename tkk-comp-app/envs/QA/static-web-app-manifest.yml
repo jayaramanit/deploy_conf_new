@@ -1,0 +1,8 @@
+---
+applications:
+- name: static-web-app-<env>
+  memory: 32M
+  instances: 1
+  domain: grc-apps.svc.ice.ge.com
+  host: qa-ci-static-web-app-<env>
+  disk_quota: 1GB

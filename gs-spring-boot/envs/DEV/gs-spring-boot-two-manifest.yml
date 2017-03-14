@@ -1,0 +1,7 @@
+---
+inherit: base-manifest.yml
+applications:
+- name: gs-spring-boot-two-<space>
+  host: gs-spring-boot-two-<space>
+  memory: 512M
+  instances: 1

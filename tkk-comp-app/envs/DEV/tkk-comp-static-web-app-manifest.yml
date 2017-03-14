@@ -1,0 +1,9 @@
+---
+applications:
+- name: tkk-comp-static-web-app-<space>
+  memory: 32M
+  instances: 1
+  domain: run.asv-pr.ice.predix.io
+  host: tkk-comp-static-web-app-<space>
+  disk_quota: 1GB
+  timeout: 180

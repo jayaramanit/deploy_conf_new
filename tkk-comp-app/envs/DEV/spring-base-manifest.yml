@@ -1,0 +1,9 @@
+---
+memory: 512M
+instances: 1
+domain: run.asv-pr.ice.predix.io
+timeout: 180
+env:
+  INHERITED_KEY: INHERITED_VALUE
+  SECRET_TWO: <SEC_TWO>
+

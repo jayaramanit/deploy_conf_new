@@ -1,0 +1,12 @@
+---
+cloud_provider:
+    type: cf
+    url: https://api.run.pivotal.io
+    org: testone
+    space: development
+    self_signed: true
+    default_domain: cfapps.io
+artifact_store:
+    type: artifactory
+    url: https://devcloud.swcoe.ge.com/artifactory
+

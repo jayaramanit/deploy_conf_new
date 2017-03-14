@@ -1,0 +1,9 @@
+---
+applications:
+- name: static-web-app-single
+  memory: 32M
+  instances: 1
+  domain: grc-apps.svc.ice.ge.com
+  host: ci-static-web-app-single
+  path: "dummy"
+  disk_quota: 1GB

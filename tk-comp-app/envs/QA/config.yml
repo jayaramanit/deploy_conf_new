@@ -1,0 +1,11 @@
+---
+cloud_provider:
+    type: cf
+    url: https://api.grc-apps.svc.ice.ge.com
+    org: apm-test
+    space: sysint
+    self_signed: true
+    default_domain: grc-apps.svc.ice.ge.com
+artifact_store:
+    type: artifactory
+    url: https://devcloud.swcoe.ge.com/artifactory

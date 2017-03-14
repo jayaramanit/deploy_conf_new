@@ -1,0 +1,10 @@
+---
+user_services:
+- service_instance: comp-app-3-ups
+  credentials:
+    key: http://host.domain.com/endpoint11
+    key2: admin1
+- service_instance: service_instance34
+  credentials:
+    key: http://host.domain.com/endpoint12
+    key2: admin2

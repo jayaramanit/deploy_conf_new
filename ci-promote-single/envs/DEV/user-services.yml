@@ -1,0 +1,10 @@
+---
+user_services:
+- service_instance: ci-prom-single-1
+  credentials:
+    foo: bar
+    key2: admin1-<space>
+- service_instance: ci-prom-single2
+  credentials:
+    key: http://host.domain.com/endpoint12
+    key2: admin2

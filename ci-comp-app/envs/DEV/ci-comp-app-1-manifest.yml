@@ -1,0 +1,19 @@
+---
+inherit: spring-base-manifest.yml
+applications:
+- name: ci-comp-app-1-<space>
+  hosts:
+  - ci-comp-app-11-<space>
+  - ci-comp-app-host2-<space>
+  secondary_routes:
+  - api1.run.asv-pr.ice.predix.io
+  - api2.run.asv-pr.ice.predix.io
+  hasDynamicRoutes: true
+  disk_quota: 1GB
+  stack: cflinuxfs2
+  services:
+  - comp-app-1-ups
+  - service_instance12
+  env:
+    MEMORY_LIMIT: 500M
+    INT_KEY: 30

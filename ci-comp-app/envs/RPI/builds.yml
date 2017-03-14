@@ -1,0 +1,9 @@
+---
+builds:
+- deployed_app_name: ci-comp-app-1
+  repository_name: UQWKB
+  generic_app_id: com/ge/devops/spring-boot-sample-jersey-1
+  build_id: 44
+  artifact_name: spring-boot-sample-jersey-1-1.0.0.<build_id>.jar
+  artifact_locator: <generic_app_id>/1.0.0.<build_id>/<artifact_name>
+

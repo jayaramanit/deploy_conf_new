@@ -1,0 +1,11 @@
+---
+applications:
+- name: spring-boot-sample-jersey-1-single-<space>
+  memory: 512M
+  instances: 1
+  domain: grc-apps.svc.ice.ge.com
+  host: ci-spring-boot-sample-jersey-1-single-<space>
+  disk_quota: 1GB
+  env: 
+      key1: value1-<env>
+      key2: value2-<env>

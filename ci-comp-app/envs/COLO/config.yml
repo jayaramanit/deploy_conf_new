@@ -1,0 +1,18 @@
+---
+cloud_provider:
+    type: cf
+    url: https://api.system.asv-pr.ice.predix.io
+    org: predix-devops-hc
+    space: training
+    self_signed: true
+    default_domain: run.asv-pr.ice.predix.io
+artifact_store:
+    type: artifactory
+    url: https://devcloud.swcoe.ge.com/artifactory
+hooks:
+    init_hook: "./initHook.sh"
+    application_hooks:
+        specific:
+           - app: ci-comp-app-1
+             pre_publish: "./ci-comp-1-pre-publish.sh"
+

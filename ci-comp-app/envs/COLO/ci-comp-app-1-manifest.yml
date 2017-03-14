@@ -1,0 +1,20 @@
+---
+inherit: spring-base-manifest.yml
+applications:
+- name: ci-comp-app-1-<space>
+  hosts:
+  - ci-comp-app-11-<space>
+  - ci-comp-app-host2-<space>
+  hasDynamicRoutes: true
+  disk_quota: 1GB
+  services:
+  - comp-app-1-ups
+  - service_instance12
+  - service_instance_new_1
+  env:
+    MEMORY_LIMIT: 500M
+    INT_KEY: 30
+    key1: value1-<space>
+    key2: value2-<space>
+    UAA_TOKEN: <SEC_UAA_TOKEN>
+    SECRET_ONE: <SEC_one>

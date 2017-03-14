@@ -1,0 +1,21 @@
+---
+builds:
+- deployed_app_name: spring-boot-sample-jersey-1-single
+  repository_name: UQWKB
+  generic_app_id: com/ge/devops/spring-boot-sample-jersey-1
+  build_id: 44
+  artifact_name: spring-boot-sample-jersey-1-1.0.0.<build_id>.jar
+  artifact_locator: <generic_app_id>/1.0.0.<build_id>/<artifact_name>
+- deployed_app_name: spring-boot-sample-jersey-2-single
+  repository_name: UQWKB
+  generic_app_id: com/ge/devops/spring-boot-sample-jersey-2
+  build_id: 44
+  artifact_name: spring-boot-sample-jersey-2-1.0.0.<build_id>.jar
+  artifact_locator: <generic_app_id>/1.0.0.<build_id>/<artifact_name>
+- deployed_app_name: static-web-app-single
+  repository_name: UQWKB-SNAPSHOT
+  generic_app_id: static-web-app
+  build_id: 1
+  artifact_name: static-web-app.zip
+  artifact_locator: <generic_app_id>/<build_id>/<artifact_name>
+

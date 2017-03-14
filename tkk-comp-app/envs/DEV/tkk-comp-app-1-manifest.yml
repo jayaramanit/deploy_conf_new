@@ -1,0 +1,22 @@
+---
+inherit: spring-base-manifest.yml
+applications:
+- name: tkk-comp-app-1-<space>
+  hosts:
+  - tkk-comp-app-11-<space>
+  - tkk-comp-app-host2-<space>
+  secondary_routes:
+  - tkk1.run.asv-pr.ice.predix.io
+  - tkk2.run.asv-pr.ice.predix.io
+  disk_quota: 1GB
+  # stack: cflinuxfs2
+  services:
+    - comp-app-1-ups
+    - service_instance12
+  env:
+    MEMORY_LIMIT: 500M
+    INT_KEY: 30
+    key1: value1-<space>
+    key2: value2-<space>
+    UAA_TOKEN: <SEC_UAA_TOKEN>
+    SECRET_ONE: <SEC_one>
